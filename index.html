@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>🌍 Real Time World</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🌍 Real Time World</h1>
+  <p class="tagline">Time never stops. Even when you are offline.</p>
+
+  <div class="card">
+    <p>👤 Age: <span id="age">0</span></p>
+    <p>🌾 Food: <span id="food">0</span></p>
+    <p>🏚️ City Health: <span id="city">0</span>%</p>
+    <p>⏳ Last Played: <span id="lastPlayed">Never</span></p>
+  </div>
+
+  <button onclick="saveGame()">💾 Save Game</button>
+  <button onclick="resetGame()">♻️ Reset</button>
+
+  <script src="game.js"></script>
+</body>
+</html>
