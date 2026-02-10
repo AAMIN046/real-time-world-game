@@ -1,0 +1,39 @@
+body {
+  background-color: #0f0f0f;
+  color: #00ff99;
+  font-family: monospace;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.tagline {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #00ff99;
+  padding: 20px;
+  width: 260px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background: #00ff99;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00cc77;
+}
